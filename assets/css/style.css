@@ -270,7 +270,8 @@ h6 {
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 20px;
+  font-size: 17px;
+  text-align: center;
   color: #fff;
   font-weight: 600;
 }
