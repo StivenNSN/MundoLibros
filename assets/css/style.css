@@ -141,29 +141,6 @@ h6 {
   }
 }
 
-#header .social-links {
-  margin-top: 40px;
-  display: flex;
-}
-
-#header .social-links a {
-  font-size: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
-  line-height: 1;
-  margin-right: 8px;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-}
-
-#header .social-links a:hover {
-  background: #00000000;
-}
-
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -197,7 +174,7 @@ h6 {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #0099ff79;
+  background: #30e07f79;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -323,11 +300,3 @@ h6 {
   right: 15px;
 }
 
-.visit-counter {
-  position: fixed;
-  bottom: 15px;
-  left: 15px;
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 10px;
-  border-radius: 5px;
-}

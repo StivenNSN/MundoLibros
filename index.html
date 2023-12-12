@@ -48,7 +48,6 @@
       <div class="section-title">
         <h2>Mundo Libros</h2>
       </div>
-
   <!--Generos de Libros-->
       <div class="row">
         <div class="col-lg-12 d-flex justify-content-center">
@@ -61,6 +60,9 @@
             <li data-filter=".filter-erotico">Erotico</li>
             <li data-filter=".filter-sagacompleta">Sagas Completas</li>
           </ul>
+          <div class="social-links">
+            <a href="https://www.instagram.com/stiven_sanchez_ns/" class="instagram" target="_blank">Sigueme en <i class="bi bi-instagram"> Instagram</i></a>
+          </div> 
         </div>
       </div>
 
@@ -450,38 +452,7 @@
           </div>
         </div>
 
-
       </div>
-
-			<!-- Contador de visitas -->
-			<div class="visit-counter">
-				<p id="contador"></p>
-
-      <div class="social-links">
-          <a href="https://www.instagram.com/stiven_sanchez_ns/" class="instagram" target="_blank">Sigueme en <i class="bi bi-instagram"> Instagram</i></a>
-      </div>
-
-			</div>
-
-			<!-- Función para incrementar el contador y mostrarlo -->
-      <script>
-        function incrementarContador() {
-          if (typeof(Storage) !== "undefined") {
-            var contador = localStorage.getItem("contador");
-            contador = contador ? parseInt(contador) + 1 : 1;
-            localStorage.setItem("contador", contador);
-            document.getElementById("contador").innerText = "Número de visitas: " + contador;
-          } else {
-            console.error("El almacenamiento local no está disponible.");
-          }
-        }
-    
-        // Llamar a la función al cargar la página
-        window.onload = function() {
-          incrementarContador();
-        };
-      </script>
-
     </div>
   </section><!-- End Portfolio Section -->
 
